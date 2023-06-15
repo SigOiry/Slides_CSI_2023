@@ -1,0 +1,944 @@
+---
+format: 
+    revealjs:
+        slide-number: false
+        transition: fade
+        theme: [default, style.scss]
+        footer: "Simon Oiry"
+        logo: Images/nantes-universite.png
+        width: 2400
+        height: 1350
+        auto-animate: true
+---
+
+##  {background-image="Images/Slide1_Background.png"}
+
+::: {.gradient_box style="text-align: center; position: absolute; left: 50%; top: 15%; width: 1800px; transform: translate(-50%, -50%)"}
+[Multiscale remote sensing of intertidal vegetation of European coasts in response to natural and anthropogenic pressures.]{style="color: black; font-size: 90px; font-weight: bold; line-height: 1em; margin: 0px; text-align: justify-all;"}
+:::
+
+<!-- ::: {.absolute bottom="0%" left="0%"} -->
+
+<!-- ![](Images/Slide1_Background.png){height="100%"} -->
+
+<!-- ::: -->
+
+::: {.gradient_box style="text-align: center; position: absolute; left: 50%; top: 30%; width: 800px; transform: translate(-50%, -50%)"}
+[Follow-up meeting 2023]{style="color: black;font-size: 60px; font-weight: bold;"}
+:::
+
+::: {.gradient_box style="text-align: center; position: absolute; left: 50%; top: 50%; width: 450px; transform: translate(-50%, -50%)"}
+[Simon Oiry]{style="color: black; font-size: 60px; font-weight: bold;"}
+
+[Phd student]{style="color: black; font-size: 55px; font-weight: bold;"}
+:::
+
+::: {.gradient_box style="text-align: center; position: absolute; left: 50%; top: 70%; width: 700px; transform: translate(-50%, -50%)"}
+[Supervisor : Laurent Barillé]{style="color: black;font-size: 55px; font-weight: bold;"} [Co-supervisor : Pierre Gernez]{style="color: black;font-size: 55px; font-weight: bold;"}
+:::
+
+## Coastal zone : areas under anthropogenic pressure {style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute bottom="3%" right="-8%"}
+![](Images/map_buffer_slide2.png){height="1000"}
+:::
+
+-   [Densely populated areas:]{style="font-size: 50px;"}
+
+    -   [4% of the french territory]{style="font-size: 40px;"}
+ 
+
+## Coastal zone : areas under anthropogenic pressure {style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute bottom="3%" right="-8%"}
+![](Images/map_density_slide2.png){height="1000"}
+:::
+
+-   [Densely populated areas:]{style="font-size: 50px;"}
+
+    -   [4% of the french territory]{style="font-size: 40px;"}
+    -   [10% of the french population]{style="font-size: 40px;"}
+    
+## Coastal zone : areas under anthropogenic pressure {style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="10%" left="40%"}
+![](Images/ships_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="10%" left="60%"}
+![](Images/oyster_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="34%" left="40%"}
+![](Images/fishing_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="34%" left="63.5%"}
+![](Images/tourism_slide2.jpg){height="300"}
+:::
+
+-   [Densely populated areas:]{style="font-size: 50px;"}
+
+    -   [4% of the french territory]{style="font-size: 40px;"}
+    -   [10% of the french population]{style="font-size: 40px;"}
+
+-   [Many economic activities:]{style="font-size: 50px;"}
+
+
+## Coastal zone : areas under anthropogenic pressure {style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="10%" left="40%"}
+![](Images/ships_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="10%" left="60%"}
+![](Images/oyster_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="34%" left="40%"}
+![](Images/fishing_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="34%" left="63.5%"}
+![](Images/tourism_slide2.jpg){height="300"}
+:::
+
+-   [Densely populated areas:]{style="font-size: 50px;"}
+
+    -   [4% of the french territory]{style="font-size: 40px;"}
+    -   [10% of the french population]{style="font-size: 40px;"}
+
+-   [Many economic activities:]{style="font-size: 50px;"}
+
+    -   [The transport of goods]{style="font-size: 40px;"}
+    -   [Aquaculture activities]{style="font-size: 40px;"}
+    -   [Fishing]{style="font-size: 40px;"}
+    -   [Tourism]{style="font-size: 40px;"}
+
+-   [Impact on the environment:]{style="font-size: 50px;"}
+
+    -   [Erosion]{style="font-size: 40px;"} ![](Images/erosion_slide2.jpg){.absolute left="45%" bottom="2%" height="500px"}
+
+## Coastal zone : areas under anthropogenic pressure {style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="10%" left="40%"}
+![](Images/ships_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="10%" left="60%"}
+![](Images/oyster_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="34%" left="40%"}
+![](Images/fishing_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="34%" left="63.5%"}
+![](Images/tourism_slide2.jpg){height="300"}
+:::
+
+-   [Densely populated areas:]{style="font-size: 50px;"}
+
+    -   [4% of the french territory]{style="font-size: 40px;"}
+    -   [10% of the french population]{style="font-size: 40px;"}
+
+-   [Many economic activities:]{style="font-size: 50px;"}
+
+    -   [The transport of goods]{style="font-size: 40px;"}
+    -   [Aquaculture activities]{style="font-size: 40px;"}
+    -   [Fishing]{style="font-size: 40px;"}
+    -   [Tourism]{style="font-size: 40px;"}
+
+-   [Impact on the environment:]{style="font-size: 50px;"}
+
+    -   [Erosion]{style="font-size: 40px;"}
+    -   [Shorelines artificialization]{style="font-size: 40px;"} ![](Images/artificialization_slide2.jpg){.absolute left="45%" bottom="2%" height="500px"}
+
+## Coastal zone : areas under anthropogenic pressure {style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="10%" left="40%"}
+![](Images/ships_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="10%" left="60%"}
+![](Images/oyster_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="34%" left="40%"}
+![](Images/fishing_slide2.jpg){height="300"}
+:::
+
+::: {.absolute top="34%" left="63.5%"}
+![](Images/tourism_slide2.jpg){height="300"}
+:::
+
+-   [Densely populated areas:]{style="font-size: 50px;"}
+
+    -   [4% of the french territory]{style="font-size: 40px;"}
+    -   [10% of the french population]{style="font-size: 40px;"}
+
+-   [Many economic activities:]{style="font-size: 50px;"}
+
+    -   [The transport of goods]{style="font-size: 40px;"}
+    -   [Aquaculture activities]{style="font-size: 40px;"}
+    -   [Fishing]{style="font-size: 40px;"}
+    -   [Tourism]{style="font-size: 40px;"}
+
+-   [Impact on the environment:]{style="font-size: 50px;"}
+
+    -   [Erosion]{style="font-size: 40px;"}
+    -   [Shorelines artificialization]{style="font-size: 40px;"}
+    -   [Decrease in water quality]{style="font-size: 40px;"} ![](Images/green_tides_slides2.jpg){.absolute left="35%" bottom="2%" height="500px"}
+
+## Coastal habitats {auto-animate="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1]{style="opacity:0.25"} 2 [3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute bottom="8%" left="30%"}
+![](Images/habitat_slides3.jpg){height="1000"}
+:::
+
+## Coastal habitats {auto-animate="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1]{style="opacity:0.25"} 2 [3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="18%" left="1%"}
+![](Images/habitat_slides3.jpg){height="800"}
+:::
+
+::: {.absolute top="15%" left="40%"}
+-   [Protection against erosion]{style="font-size: 50px;"}
+:::
+
+![](Images/MPB_slide3.jpg){.absolute left="45%" top="25%" height="850"}
+
+## Coastal habitats {auto-animate="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1]{style="opacity:0.25"} 2 [3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="18%" left="1%"}
+![](Images/habitat_slides3.jpg){height="800"}
+:::
+
+::: {.absolute top="15%" left="40%"}
+-   [CO² fixation]{style="font-size: 50px;"}
+:::
+
+![](Images/eelgrass_slide3.jpg){.absolute left="45%" top="25%" height="850"} [up to 150kg of CO² per hectar and per year]{.absolute left="60%" bottom="-53%" height="850" style="font-size: 25px; color: #6F6D6E;"}
+
+## Coastal habitats {auto-animate="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1]{style="opacity:0.25"} 2 [3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="18%" left="1%"}
+![](Images/habitat_slides3.jpg){height="800"}
+:::
+
+::: {.absolute top="15%" left="40%"}
+-   [Nurserey and habitat of many species]{style="font-size: 50px;"}
+:::
+
+![](Images/birds1_slide3.jpg){.absolute left="40%" top="55%" height="400"}
+
+::: fragment
+![](Images/birds2_slide3.jpg){.absolute .fade-in left="45%" top="25%" height="400"}
+:::
+
+::: fragment
+![](Images/paper_slide3.png){.absolute .fade-in left="63%" top="55%" height="400"}
+:::
+
+## Remote sensing, a tool to monitor them all ! {auto-animate="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute bottom="8%" left="5%"}
+![](Images/fieldsampling_slide4.jpg){height="1000"}
+:::
+
+## Remote sensing, one tool to monitor them all ! {auto-animate="true" auto-animate-unmatched="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="9%" left="2%"}
+![](Images/fieldsampling_slide4.jpg){height="450"}
+:::
+
+::: {.absolute top="45%" left="2%"}
+[Restrictions of field work campaigns:]{style="font-size: 60px;"}
+
+::: {.fragment fragment-index="1"}
+-   expensive
+:::
+
+::: {.fragment fragment-index="2"}
+-   time-consuming
+:::
+
+::: {.fragment fragment-index="3"}
+-   difficult to upscale
+:::
+:::
+
+::: {.fragment .absolute fragment-index="4" top="7%" left="50%"}
+![](Images/EOimplemtation.png){width="900"}
+:::
+
+::: {.fragment fragment-index="4"}
+[Papathanasopoulou, E., Simis, S., Alikas, K., Ansper, A., Anttila, S., Jenni, A., Barillé, A.-L., Barillé, L., Brando, V., Bresciani, M., Bučas, M., Gernez, P., Giardino, C., Harin, N., Hommersom, A., Kangro, K., Kauppila, P., Koponen, S., Laanen, M., ... Zoffoli, M. L. (2019). Satellite-assisted monitoring of water quality to support the implementation of the Water Framework Directive. In EOMORES white paper. https://doi.org/10.5281/zenodo.3463051]{style="position: absolute; left: 1200px; top: 1180px; height: 110px; width: 785px; background-color: #FFFFFF; padding: 20px; padding-left: 50px; font-size: 20px; text-align: center; color:#292626 "}
+:::
+
+## Remote sensing, one tool to monitor them all ! {auto-animate="true" auto-animate-unmatched="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="15%" left="15%"}
+![](Images/scale_muller_slide4.png){.absolute bottom="-5%" left="25%" height="30px"} ![](Images/muller_slide4.png){data-id="tableMuller" width="1500"}
+:::
+
+[Table adapted from Muller-Karger et al. 2018]{.absolute data-id="textMuller" top="12%" left="20%" style="font-size: 35px;"}
+
+::: {.fragment .fade-in .absolute top="24.3%" left="38.2%" width="363"}
+::: blackbox
+:::
+:::
+
+## Remote sensing, one tool to monitor them all ! {auto-animate="true" auto-animate-unmatched="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="15%" left="5%\""}
+![](Images/Muller_slide4.png){data-id="tableMuller" height="500"}
+:::
+
+::: {data-id="textMuller"}
+[Table adapted from Muller-Karger et al. 2018]{style="font-size: 20px;"}
+:::
+
+![](Images/MODIS.png){.absolute data-id="MODIS" left="35%" top="25%" height="450"} [MODIS, 250m, 1 day, 2 spectal bands]{.absolute data-id="MODIStext" top="20%" left="35%" style="font-size: 40px;"}
+
+## Remote sensing, one tool to monitor them all ! {auto-animate="true" auto-animate-unmatched="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="15%" left="5%\""}
+![](Images/Muller_slide4.png){height="500"}
+:::
+
+[Table adapted from Muller-Karger et al. 2018]{style="font-size: 20px;"}
+
+![](Images/MODIS.png){.absolute data-id="MODIS" left="2%" top="60%" height="350"} [MODIS, 250m, 1 day, 2 spectral bands]{.absolute data-id="MODIStext" top="86%" left="2%" style="font-size: 40px;"}
+
+![](Images/Sentinel2.png){.absolute data-id="S2" left="35%" top="25%" height="450"} [Sentinel-2, 10m, 3 to 5 days, 10 spectral bands]{.absolute data-id="S2text" top="20%" left="35%" style="font-size: 40px;"}
+
+## Remote sensing, one tool to monitor them all ! {auto-animate="true" auto-animate-unmatched="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute top="15%" left="5%\""}
+![](Images/Muller_slide4.png){height="500"}
+:::
+
+[Table adapted from Muller-Karger et al. 2018]{style="font-size: 20px;"}
+
+![](Images/MODIS.png){.absolute data-id="MODIS" left="-2%" top="60%" height="200"} [MODIS]{.absolute data-id="MODIStext" top="80%" left="2%" style="font-size: 30px;"}
+
+![](Images/Sentinel2.png){.absolute data-id="S2" left="20%" top="60%" height="200"} [Sentinel-2]{.absolute data-id="S2text" top="80%" left="22%" style="font-size: 30px;"}
+
+::: {.fragment .fade-out fragment-index="1"}
+![](Images/Drone_zoom.jpg){.absolute data-id="DroneZoom" left="40%" top="25%" height="800"}
+:::
+
+::: {.fragment .fade-in fragment-index="1"}
+![](Images/micasense.png){.absolute data-id="DroneZoom" left="35%" top="30%" height="600"}
+:::
+
+[UAV with a multispectral camera]{.absolute data-id="droneText" top="20%" left="35%" style="font-size: 40px;"}
+
+## What is our plan ? {auto-animate="true" auto-animate-unmatched="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2 3]{style="opacity:0.25"} 4 [5 6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.absolute left="7%" top="15%" height="1000"}
+[Workflow of the advanced product of BiCOME]{.absolute top="-5%" left="-5%" style="font-size: 40px;"} ![](Images/workflow.png){data-id="workflow"}
+:::
+
+::: {.absolute .fragment .fade-in-then-out fragment-index="1" top="70%" left="62.5%"}
+::: {.redbox .absolute width="780" height="244"}
+:::
+:::
+
+::: {.absolute .fragment .fade-in-then-out fragment-index="2" top="16.8%" left="12.7%"}
+::: {.redbox .absolute width="522" height="54"}
+:::
+:::
+
+::: {.absolute .fragment .fade-in-then-out fragment-index="3" top="35.7%" left="27.15%"}
+::: {.redbox .absolute width="268" height="288"}
+:::
+:::
+
+::: {.absolute .fragment .fade-in-then-out fragment-index="4" bottom="23.7%" left="13%"}
+::: {.redbox .absolute width="594" height="120"}
+:::
+:::
+
+::: {.absolute .fragment .fade-in-then-out fragment-index="5" top="52.2%" left="56.5%"}
+::: {.redbox .absolute width="650" height="207"}
+:::
+:::
+
+## Field campaigns {auto-animate="true" auto-animate-unmatched="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2 3 4]{style="opacity:0.25"} 5 [6]{style="opacity:0.25"}
+:::
+:::
+
+[A total of 19 flights were made between September 2021 and September 2022:]{.absolute top="10%" left="5%" style="font-size: 40px;"}
+
+::: {.absolute data-id="map_site" bottom="-4%" right="-15%"}
+![](Images/map_site.png){data-id="map_site" height="1200"}
+:::
+
+## Field campaigns {auto-animate="true" auto-animate-unmatched="true" style="font-size: 60px;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2 3 4]{style="opacity:0.25"} 5 [6]{style="opacity:0.25"}
+:::
+:::
+
+[A total of 17 flights were made between September 2021 and September 2022:]{.absolute top="9%" left="5%" style="font-size: 50px;"}
+
+::: {.fragment .fade-out .absolute data-id="map_site" fragment-index="1" top="10%" left="40%"}
+![](Images/map_site_tagus.png){data-id="map_site" height="1200"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="map_site" fragment-index="1" top="10%" left="40%"}
+![](Images/map_site_aveiro.png){data-id="map_site" height="1200"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="map_site" fragment-index="2" top="10%" left="40%"}
+![](Images/map_site_bourgneuf.png){data-id="map_site" height="1200"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="map_site" fragment-index="3" top="10%" left="40%"}
+![](Images/map_site_morbihan.png){data-id="map_site" height="1200"}
+:::
+
+::: {.fragment .fade-out .absolute fragment-index="1" top="20%" left="0%" style="font-size: 40px;"}
+-   [Portugal]{style="font-weight: bold;"}
+    -   Tagus estuary (1 day)
+        -   only validation data
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="1"}
+::: {.absolute top="20%" left="0%" style="font-size: 40px;"}
+-   [Portugal]{style="font-weight: bold;"}
+    -   Tagus estuary (1 day)
+        -   only validation data
+    -   Aveiro lagoon (5 days)
+        -   5 drone flights at 2 different altitudes
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="2"}
+::: {.absolute top="20%" left="0%" style="font-size: 40px;"}
+-   [Portugal]{style="font-weight: bold;"}
+    -   Tagus estuary (1 day)
+        -   only validation data
+    -   Aveiro lagoon (5 days)
+        -   5 drone flights at 2 different altitudes
+-   [France]{style="font-weight: bold;"}
+    -   Noirmoutier Island (2 days)
+        -   4 drone flights
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="3"}
+::: {.absolute top="20%" left="0%" style="font-size: 40px;"}
+-   [Portugal]{style="font-weight: bold;"}
+    -   Tagus estuary (1 day)
+        -   only validation data
+    -   Aveiro lagoon (5 days)
+        -   5 drone flights at 2 different altitudes
+-   [France]{style="font-weight: bold;"}
+    -   Noirmoutier Island (2 days)
+        -   4 drone flights
+    -   Gulf of Morbihan (3 days)
+        -   8 drone flights at 2 different altitudes
+:::
+:::
+
+## Methodology followed at every flight {style="font-size: 60px; font-weight: bold;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2 3 4]{style="opacity:0.25"} 5 [6]{style="opacity:0.25"}
+:::
+:::
+
+::: {.fragment .fade-out fragment-index="1"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="1"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+    -   Flight height :
+        -   120m (8cm pixel size)
+        -   12m (8mm pixel size)
+
+![](Images/pixelsize.png){.absolute data-id="map_site" top="30%" right="-60%" height="300"}
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="2"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+    -   Flight height :
+        -   120m (8cm pixel size)
+        -   12m (8mm pixel size)
+    -   fly during low solar elevation
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="3"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+    -   Flight height :
+        -   120m (8cm pixel size)
+        -   12m (8mm pixel size)
+    -   fly during low solar elevation
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="4"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+    -   Flight height :
+        -   120m (8cm pixel size)
+        -   12m (8mm pixel size)
+    -   fly during low solar elevation
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="5"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+    -   Flight height :
+        -   120m (8cm pixel size)
+        -   12m (8mm pixel size)
+    -   fly during low solar elevation
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="6"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+    -   Flight height :
+        -   120m (8cm pixel size)
+        -   12m (8mm pixel size)
+    -   fly during low solar elevation
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="7"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+    -   Flight height :
+        -   120m (8cm pixel size)
+        -   12m (8mm pixel size)
+    -   fly during low solar elevation
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="8"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+    -   Flight height :
+        -   120m (8cm pixel size)
+        -   12m (8mm pixel size)
+    -   fly during low solar elevation
+    -   90° with the azimuth of the sun
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="9"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   Drone flights:
+    -   Flight height :
+        -   120m (8cm pixel size)
+        -   12m (8mm pixel size)
+    -   fly during low solar elevation
+    -   90° with the azimuth of the sun
+    -   Front and side overlap of 80%
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="10"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   In addition to this:
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="11"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   In addition to this:
+    -   d-GPS positioning (5cm accuracy)
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="12"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   In addition to this:
+    -   d-GPS positioning (5cm accuracy)
+        -   Hyperspectral data (Spectroradiometer)
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="13"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   In addition to this:
+    -   d-GPS positioning (5cm accuracy)
+        -   Hyperspectral data (Spectroradiometer)
+        -   Targets and ground control points
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="14"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   In addition to this:
+    -   d-GPS positioning (5cm accuracy)
+        -   Hyperspectral data (Spectroradiometer)
+        -   Targets and ground control points
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="15"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   In addition to this:
+    -   d-GPS positioning (5cm accuracy)
+        -   Hyperspectral data (Spectroradiometer)
+        -   Targets and ground control points
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index="15"}
+[Grid of Sentinel-2 and position of targets]{.absolute bottom="5%" left="50%" style="font-size: 30px;"}
+:::
+
+::: {.fragment .fade-in fragment-index="16"}
+::: {.absolute top="15%" left="0%" style="font-size: 50px;"}
+-   In addition to this:
+    -   d-GPS positioning (5cm accuracy)
+        -   Hyperspectral data (Spectroradiometer)
+        -   Targets and ground control points
+:::
+:::
+
+::: {.fragment .fade-out .absolute data-id="image_drone" fragment-index="3" top="15%" right="0%"}
+![](Images/matrice.jpg){data-id="map_site" height="800"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone" fragment-index="3" top="15%" right="20%"}
+![](Images/drone_azi1.png){data-id="map_site" height="800"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone" fragment-index="4" top="15%" right="20%"}
+![](Images/drone_azi2.png){data-id="map_site" height="800"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone" fragment-index="5" top="15%" right="20%"}
+![](Images/drone_azi3.png){data-id="map_site" height="800"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone" fragment-index="6" top="10%" right="5%"}
+![](Images/drone_glint.png){data-id="map_site" height="1200"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone" fragment-index="7" top="10%" right="5%"}
+![](Images/drone_glint2.png){data-id="map_site" height="1000"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="11" top="10%" right="35%"}
+![](Images/dgps.jpg){data-id="map_site" height="1000"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="12" top="10%" right="35%"}
+![](Images/dgps.jpg){data-id="map_site" height="1000"} ![](Images/spectro.jpg){.absolute top="1%" right="-95%" data-id="map_site" height="1000"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="13" top="10%" right="35%"}
+![](Images/dgps.jpg){data-id="map_site" height="1000"} ![](Images/target1.jpg){.absolute top="1%" right="-95%" data-id="map_site" height="1000"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="14" top="10%" right="35%"}
+![](Images/dgps.jpg){data-id="map_site" height="1000"} ![](Images/quadrat2.jpg){.absolute top="1%" right="-95%" data-id="map_site" height="500"} ![](Images/quadrat3.jpg){.absolute top="50%" right="-95%" data-id="map_site" height="500"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="15" top="10%" right="15%"}
+![](Images/S2grid.png){data-id="map_site" height="1000"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="16" top="10%" right="15%"}
+![](Images/S2grid.png){data-id="map_site" height="1000"}
+:::
+
+::: {.fragment .fade-in .absolute data-id="image_drone1" fragment-index="16" top="40%" left="0%"}
+![](Images/workflow.png){data-id="map_site" height="500"}
+:::
+
+## Pre-processing of drone data {style="font-size: 60px; font-weight: bold;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2 3 4 5]{style="opacity:0.25"} 6
+:::
+:::
+
+[\~ 30 000 picture per flight]{.absolute left="10%"}
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="1"}
+-   photogrammetry software
+:::
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="2"}
+-   photogrammetry software
+    -   calibrate each image in reflectance\
+:::
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="3"}
+-   photogrammetry software
+    -   calibrate each image in reflectance\
+:::
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="4"}
+-   photogrammetry software
+    -   calibrate each image in reflectance\
+:::
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="5"}
+-   photogrammetry software
+    -   calibrate each image in reflectance\
+:::
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="6"}
+-   photogrammetry software
+    -   calibrate each image in reflectance
+    -   find common points between images
+:::
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="7"}
+-   photogrammetry software
+    -   calibrate each image in reflectance
+    -   find common points between images
+    -   correct positioning of images with GCPs
+:::
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="8"}
+-   photogrammetry software
+    -   calibrate each image in reflectance
+    -   find common points between images
+    -   correct positioning of images with GCPs
+    -   build a dense cloud
+:::
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="9"}
+-   photogrammetry software
+    -   calibrate each image in reflectance
+    -   find common points between images
+    -   correct positioning of images with GCPs
+    -   build a dense cloud
+    -   Build a Digital Elevation Model (DEM)
+:::
+
+::: {.absolute .fragment .fade-in-then-out top="15%" left="0%" style="font-size: 50px;" fragment-index="10"}
+-   photogrammetry software
+    -   calibrate each image in reflectance
+    -   find common points between images
+    -   correct positioning of images with GCPs
+    -   build a dense cloud
+    -   Build a Digital Elevation Model (DEM)
+    -   Build the orthomosaic
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="2" top="0%" left="50%"}
+![](Images/reflectance.png){data-id="map_site" height="400"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="3" top="0%" left="50%"}
+![](Images/reflectance.png){data-id="map_site" height="400"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="3" top="27%" left="-5%"}
+![](Images/spectralon.jpg){data-id="map_site" height="900"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="3" top="35%" left="25%"}
+![](Images/pyrano.jpg){data-id="map_site" height="700"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="4" top="40%" left="15%"}
+![](Images/pxlcompare.png){data-id="map_site" height="500"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="5" top="40%" left="15%"}
+![](Images/pxlcompare_std.png){data-id="map_site" height="500"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="6" top="35%" left="40%"}
+![](Images/group.jpg){data-id="map_site" height="800"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="7" top="35%" left="40%"}
+![](Images/group.jpg){data-id="map_site" height="800"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="8" top="35%" left="40%"}
+![](Images/group.jpg){data-id="map_site" height="800"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="9" top="35%" left="40%"}
+![](Images/group.jpg){data-id="map_site" height="800"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="10" top="35%" left="40%"}
+![](Images/group.jpg){data-id="map_site" height="800"}
+:::
+
+## Pre-processing of drone data {style="font-size: 60px; font-weight: bold;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2 3 4 5]{style="opacity:0.25"} 6
+:::
+:::
+
+::: {.fragment .fade-out .absolute data-id="image_drone1" fragment-index="1" top="7%" left="0%"}
+![](Images/maps_aveiro.png){height="1200"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="1" top="7%" left="0%"}
+![](Images/maps_aveiro3.png){height="1200"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="1" top="7%" left="50%"}
+![](Images/white_seagrass.jpg){height="1200"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="2" top="7%" left="0%"}
+![](Images/maps_aveiro.png){height="1200"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute data-id="image_drone1" fragment-index="2" top="8%" left="50%"}
+![](Images/maps_aveiro2.png){height="1200"}
+:::
+
+## Future Work {style="font-size: 60px; font-weight: bold;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2 3 4 5]{style="opacity:0.25"} 6
+:::
+:::
+
+::: {.absolute bottom="0%" left="5%"}
+![](Images/Map_Combine_Transarent.png){height="1200"}
+:::
+
+## Thank You {style="font-size: 60px; font-weight: bold;"}
+
+::: {.absolute top="0" left="95%"}
+::: sectionhead
+[1 2 3 4 5]{style="opacity:0.25"} 6
+:::
+:::
+
+::: {.absolute bottom="5%" left="0%"}
+![](Images/IMG_2246.png){height="1100"}
+:::
